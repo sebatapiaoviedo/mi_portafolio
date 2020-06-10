@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #660066;
+}
+
+.first-section {
+    text-align: center;
+    background-image: url("../img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;  
+}
+
+#last-job {
+    background-color: #660066;
+}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@700&display=swap" rel="stylesheet">
     <title>YO SOY MAGDALENA</title>
   </head>
   <body>
@@ -38,44 +38,63 @@
     </nav>
 
     <header class="first-section container-fluid p-5">
+      <div class="img-fluid" style="padding-bottom: 250px; padding-top: 250px;">
         <h1>YO SOY</h1>
         <hr>
         <h1>MAGDALENA</h1>
+      </div>  
     </header>
 
-    <div class="container text-center py-5">
-        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatum deleniti rerum, vero sint cumque minus accusamus sit praesentium alias architecto vel itaque illo officiis soluta nobis rem aliquid a.</h2>
+    <div class="d-none d-md-block">
+
+      <div class="container text-center py-5">
+          <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptatum deleniti rerum, vero sint cumque minus accusamus sit praesentium alias architecto vel itaque illo officiis soluta nobis rem aliquid a.</h2>
+      </div>
+
+      <hr class="" style="border: 1px solid black; width: 15%; text-align: center;">
+
+      <div class="container py-5">
+          <div class="row">
+              <div class="col-6">
+                  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consectetur veritatis, consequatur quasi totam velit optio voluptas similique nesciunt veniam incidunt, laudantium consequuntur modi, voluptatem omnis adipisci ipsa placeat facilis.</h3>
+              </div>
+
+              <div class="col-6">
+                  <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ducimus illo iure ipsam atque laudantium reprehenderit ut dolorum odit tenetur quos, sint error, ea earum consequuntur, deleniti possimus vel corporis.</h3>
+              </div>
+          </div>
+      </div>
+
     </div>
+
+    <h1 class="container text-center py-5">MI EXPERIENCIA</h1>
 
     <hr class="" style="border: 1px solid black; width: 15%; text-align: center;">
 
     <div class="container py-5">
-        <div class="row">
-            <div class="col-6">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consectetur veritatis, consequatur quasi totam velit optio voluptas similique nesciunt veniam incidunt, laudantium consequuntur modi, voluptatem omnis adipisci ipsa placeat facilis.</h3>
-            </div>
 
-            <div class="col-6">
-                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ducimus illo iure ipsam atque laudantium reprehenderit ut dolorum odit tenetur quos, sint error, ea earum consequuntur, deleniti possimus vel corporis.</h3>
-            </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="assets/img/yosoy.png" alt="..." class="img-thumbnail">
+            <h5 class="card-title">Stormtrooper</h5>
+            <p class="card-text">1980 - 2014</p>
+          </div>
         </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body text-center">
+            <img src="assets/img/yosoy.png" alt="..." class="img-thumbnail">
+            <h5 class="card-title">Desarrolladora Rails</h5>
+            <p class="card-text">2014 - 2018</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <h1 class="container text-center">MI EXPERIENCIA</h1>
-
-    <hr class="" style="border: 1px solid black; width: 15%; text-align: center;">
-
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-6 text-center">
-                <h3>Stormtrooper</h3>
-            </div>
-
-            <div class="col-6 text-center">
-                <h3>Desarrolladora Rails</h3>
-            </div>
-        </div>
-    </div>
+    </div> 
 
     <section id="last-job" class="container-fluid text-center pb-5">
 
@@ -153,11 +172,11 @@
 
     <footer class="container-fluid py-5">
     <div class="row text-center">  
-      <div class="col-6">
+      <div class="col-sm-12 col-md-6">
         <h1 class="text-white">MAGDALENA</h1>
       </div>
 
-      <div class="col-6">
+      <div class="col-sm-12 col-md-6">
         <i class="fab fa-github-square display-3 text-white mx-3"></i>
         <i class="fab fa-linkedin display-3 text-white mx-3"></i>
         <i class="fab fa-twitter-square display-3 text-white mx-3"></i>
